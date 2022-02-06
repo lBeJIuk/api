@@ -7,6 +7,7 @@ type StreamDeckInfo struct {
 	Rows     int    `json:"rows,omitempty"`
 	IconSize int    `json:"icon_size,omitempty"`
 	Page     int    `json:"page"`
+	Profile  string `json:"profile"`
 	Serial   string `json:"serial,omitempty"`
 }
 
